@@ -1,0 +1,41 @@
+body{
+    margin: auto;
+    padding: auto;
+    background-color:rgb(148, 64, 227);
+}
+.incard{
+    margin-left: 38%;
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    margin-top: 15%;
+    border-radius: 10px;
+    transform: rotate(6deg);
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 62px;
+}
+.input{
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transform: rotate(0.5deg);
+}
+#button{
+    background-color: rgb(148, 64, 227);
+    border: none;
+    font-size: medium;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+#match{
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif
+   
+}
