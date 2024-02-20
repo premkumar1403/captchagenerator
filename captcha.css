@@ -1,7 +1,13 @@
 body{
-    margin: auto;
-    padding: auto;
+    margin: 0px;
+    padding: 0px;
     background-color:rgb(148, 64, 227);
+    box-sizing: border-box;
+}
+#mini{
+    border: none;
+    outline: none;
+   font-size: 40px;
 }
 .incard{
     margin-left: 38%;
@@ -12,6 +18,9 @@ body{
     border-radius: 10px;
     transform: rotate(6deg);
 }
+input::placeholder{
+    font-size: large;
+}
 .inputs{
     display: flex;
     flex-direction: column;
@@ -20,22 +29,38 @@ body{
 }
 .input{
     padding-left: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     border-radius: 10px;
-    transform: rotate(0.5deg);
 }
 #button{
     background-color: rgb(148, 64, 227);
     border: none;
     font-size: medium;
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
     font-family: Arial, Helvetica, sans-serif
 }
 #match{
-    border-radius: 10px;
-    color: white;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif
+    border-radius: 5px;
+    font-size:xx-large;
+    border: 2px solid black;
    
+   }
+#firstin{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 8px;
+    height: 20px;
+    width: 250px;
+    border: 3px solid black;
+    margin-left: 10px;
+    margin-bottom:5px;
+    padding-bottom:50px;
+    text-align: center;
+    position: static;
+    border-radius: 5px;
+    background-color:white;
+    border-color: rgba(0, 0, 0, 0.702);
 }
+
