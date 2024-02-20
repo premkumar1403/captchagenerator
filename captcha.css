@@ -4,7 +4,7 @@ body{
     background-color:rgb(148, 64, 227);
     box-sizing: border-box;
 }
-#mini{
+#miniinput{
     border: none;
     outline: none;
    font-size: 40px;
