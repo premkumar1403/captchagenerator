@@ -14,7 +14,7 @@ body{
     transform: rotate(6deg);
 }
 input::placeholder{
-    font-size: large;
+    font-size: x-large;
 }
 .inputs{
     display: flex;
