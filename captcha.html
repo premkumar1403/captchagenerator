@@ -39,7 +39,7 @@ function generate(){
 function verify(){
     var check = document.getElementById("match")
     var submit = document.getElementById("button")
-    if(check.value==store.innerHTML){
+    if(check.value==store.textContent){
     document.getElementById("pop").innerHTML="Captcha Matched Successfully"
      }
     else{
